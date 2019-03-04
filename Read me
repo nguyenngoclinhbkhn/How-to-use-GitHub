@@ -1,0 +1,29 @@
++ Create a new repository in github
++ Copy your url repository . It same as "https://github.com/nguyenngoclinhbkhn/ShopI.git" 
++ At your computer
+  - Move to project if you will to push it to github
+  - Right click and choose Git Bash Here (in case you installed git)
+  
+  - write commands below
+   *    $git init
+   
+   *    $git add .
+        # to add the files in the local repository and stages the for commit
+   *    $git commit -m "Your commit"
+        # to commit message you want
+   *    $git remote add origin yourURL
+        # set the new remote
+   *    $git remote -v
+        # to verify the new remote URL
+   */ In case, if you remote wrong URL , you will set up your remote again same below */
+   *    $ git remote set-url origin yourURLCorrect
+        # set up correct your remote
+   *    $ git remote -v
+        # verify the new remote
+        
+   *    $ git push origin master 
+        # To push the project of you to github
+       
+   (In case if git notified, tell who you are ? 
+   you must write username and password to verify and push project to github)
+      
