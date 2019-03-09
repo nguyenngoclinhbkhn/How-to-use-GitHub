@@ -25,5 +25,10 @@
         # To push the project of you to github
        
    (In case if git notified, tell who you are ? 
-   you must write username and password to verify and push project to github)
+   you must write username and password to verify and push project to github
+   run command
+   
+        $git config --global user.name "userName"
+        $git config --global user.email "you@example.com"
+   )
   
