@@ -31,4 +31,18 @@
         $git config --global user.name "userName"
         $git config --global user.email "you@example.com"
    )
+   
+   
+   + Pull project from github to your computer and edit and finaly push it come back
+   run command
+        $git clone yourRepository
+        + After you edit anything in your project, you will push it to your github
+          run command
+          $git add *
+          $git commit - m "your commit"
+          # to add anything you edit in your project
+        + Push comeback your github
+          run command
+          $git push origin master
+          
   
