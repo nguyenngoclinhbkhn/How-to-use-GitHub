@@ -32,6 +32,10 @@
         $git config --global user.email "you@example.com"
    )
    
+   + after push to git, if you use AndroidStudio, you must execute command
+        $git branch --set-upstream-to=origin/master master 
+        # after you can use "update" in AndroidStudio to update project
+   
    
    + Pull project from github to your computer and edit and finaly push it come back
    run command
@@ -44,5 +48,9 @@
         + Push comeback your github
           run command
           $git push origin master
+          
+          
+          
+
           
   
